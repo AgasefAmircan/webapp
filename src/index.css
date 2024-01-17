@@ -13,7 +13,10 @@
   a {
     list-style-type: none;
     text-decoration: none;
-    color: aqua;
+    color: black;
     font-size: 18px;
+  }
+  .active {
+    color: blue !important;
   }
 }

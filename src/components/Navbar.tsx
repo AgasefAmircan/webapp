@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
-
-const Navbar = () => {
+import { NavLink } from "react-router-dom";
+import { FC } from "react";
+const Navbar: FC = () => {
   return (
     <div className="navbar">
-      <Link to="/">Home</Link>
-      <Link to="account">Account</Link>
-      <Link to="campaigns">Campaigns</Link>
-      <Link to="profiles">Profiles</Link>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="account">Account</NavLink>
+      <NavLink to="campaigns">Campaigns</NavLink>
+      <NavLink to="profiles">Profiles</NavLink>
     </div>
   );
 };
